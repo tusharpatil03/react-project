@@ -1,0 +1,50 @@
+
+
+
+body {
+    text-align: center;
+  }
+  .container{
+    display: inline;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  #score{
+    position: absolute;
+    right: 50px;
+  }
+  
+  .btn {
+    height: 7rem;
+    width: 7rem;
+    border: 2px solid black;
+    border-radius: 20%;
+    margin: 10px;
+    padding: 10px;
+  }
+  .btn-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .red{
+    background-color: #d95980;
+  }
+  .yellow{
+    background-color: #f99b45;
+  }
+  .green{
+    background-color: #63aac0;
+  }
+  .purple{
+    background-color: #819f;
+  }
+  
+  .flash{
+    background-color: white;
+  }
+  .userflash{
+    background-color: green;
+  }
+  
